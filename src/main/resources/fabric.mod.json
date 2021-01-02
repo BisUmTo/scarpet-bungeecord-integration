@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "carpet-extension",
-  "version": "1.4.6",
+  "id": "scarpet-bungeecord-integration",
+  "version": "1.4.21",
 
-  "name": "Example Carpet Extension Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Scarpet BungeeCord Integration",
+  "description": "Allows Scarpet to send packets to BungeeCord!",
   "authors": [
-    "Me!"
+    "BisUmTo ..."
   ],
   "contact": {
-    "homepage": "https://web.me/",
-    "sources": "https://github.com/gnembon/fabric-carpet-extension-example-mod"
+    "homepage": "https://github.com/BisUmTo/scarpet-bungeecord-integration",
+    "sources": "https://github.com/BisUmTo/scarpet-bungeecord-integration"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/scarpet-bungeecord-integration/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -22,11 +22,11 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "scarpet-bungeecord-integration.mixins.json"
   ],
 
   "depends": {
-    "minecraft": "1.16.x",
+    "minecraft": "1.17.x",
     "fabricloader": ">=0.4.0",
     "carpet": "*"
   },
