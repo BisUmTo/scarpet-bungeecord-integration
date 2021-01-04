@@ -10,7 +10,7 @@ public class ScarpetBungeeCordIntegrationSettings {
     @Rule(
             desc = "Every 30 seconds sends Player Position.",
             appSource = "send_player_position",
-            category = {SURVIVAL, SCARPET, FEATURE, REDCRAFT}
+            category = {SURVIVAL, FEATURE, REDCRAFT}
     )
     public static boolean sendPlayerPosition = false;
 
